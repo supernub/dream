@@ -1,0 +1,43 @@
+{
+  "train_losses": [
+    0.7858205949132507
+  ],
+  "val_metrics": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7858205949132507,
+      "val_loss": 1.462078377364916,
+      "val_acc": 0.25640574758842444,
+      "val_f1": 0.31234244923407506,
+      "val_mae": 1.0058279742765273
+    }
+  ],
+  "best_mae": 1.0058279742765273,
+  "args": {
+    "h5ad_path": "/home/spark/xinze-project/test_data/SEAAD_A9_testcase_4donors.h5ad",
+    "split_json": "/home/spark/xinze-project/dream/outputs/test_case_pipeline/donor_split.json",
+    "memmap_dir": "",
+    "label_col": "ADNC",
+    "embedding_dim": 16,
+    "ffn_dim": 512,
+    "nhead": 8,
+    "depth": 1,
+    "dropout": 0.1,
+    "max_seq_len": 1024,
+    "batch_size": 64,
+    "epochs": 1,
+    "lr": 0.0002,
+    "weight_decay": 0.0001,
+    "num_workers": 2,
+    "amp": false,
+    "log_interval": 10,
+    "gradient_accumulation_steps": 1,
+    "output_dir": "/home/spark/xinze-project/dream/outputs/test_case_pipeline/transformer_model",
+    "seed": 42
+  },
+  "accelerator_config": {
+    "num_processes": 2,
+    "mixed_precision": "no",
+    "gradient_accumulation_steps": 1
+  }
+}

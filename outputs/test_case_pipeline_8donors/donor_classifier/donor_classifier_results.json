@@ -1,0 +1,16 @@
+{
+  "test_accuracy": 0.25,
+  "test_f1": 0.16666666666666666,
+  "test_qwk": -0.125,
+  "n_train_donors": 12,
+  "n_test_donors": 4,
+  "embedding_dim": 384,
+  "model_config": {
+    "hidden_dims": [
+      512,
+      256
+    ],
+    "dropout": 0.1
+  },
+  "sampling_strategy": "training_donors_sampled_test_donors_all"
+}

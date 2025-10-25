@@ -1,0 +1,73 @@
+{
+  "n_cells": 69888,
+  "embedding_dim": 16,
+  "n_donors": 16,
+  "n_celltypes": 24,
+  "donor_split_info": {
+    "H21.33.001": {
+      "is_train": false,
+      "repetition": -1
+    },
+    "H20.33.002_rep_0": {
+      "is_train": true,
+      "repetition": 0
+    },
+    "H20.33.002_rep_1": {
+      "is_train": true,
+      "repetition": 1
+    },
+    "H20.33.002_rep_2": {
+      "is_train": true,
+      "repetition": 2
+    },
+    "H20.33.038_rep_0": {
+      "is_train": true,
+      "repetition": 0
+    },
+    "H20.33.038_rep_1": {
+      "is_train": true,
+      "repetition": 1
+    },
+    "H20.33.038_rep_2": {
+      "is_train": true,
+      "repetition": 2
+    },
+    "H21.33.043_rep_0": {
+      "is_train": true,
+      "repetition": 0
+    },
+    "H21.33.043_rep_1": {
+      "is_train": true,
+      "repetition": 1
+    },
+    "H21.33.043_rep_2": {
+      "is_train": true,
+      "repetition": 2
+    },
+    "H20.33.005_rep_0": {
+      "is_train": true,
+      "repetition": 0
+    },
+    "H20.33.005_rep_1": {
+      "is_train": true,
+      "repetition": 1
+    },
+    "H20.33.005_rep_2": {
+      "is_train": true,
+      "repetition": 2
+    },
+    "H20.33.026": {
+      "is_train": false,
+      "repetition": -1
+    },
+    "H20.33.034": {
+      "is_train": false,
+      "repetition": -1
+    },
+    "H21.33.003": {
+      "is_train": false,
+      "repetition": -1
+    }
+  },
+  "num_repetitions": 3
+}

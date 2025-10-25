@@ -1,0 +1,41 @@
+{
+  "n_cells": 38784,
+  "embedding_dim": 16,
+  "n_donors": 8,
+  "n_celltypes": 24,
+  "donor_split_info": {
+    "H20.33.001_rep_0": {
+      "is_train": true,
+      "repetition": 0
+    },
+    "H20.33.001_rep_1": {
+      "is_train": true,
+      "repetition": 1
+    },
+    "H20.33.001_rep_2": {
+      "is_train": true,
+      "repetition": 2
+    },
+    "H20.33.037_rep_0": {
+      "is_train": true,
+      "repetition": 0
+    },
+    "H20.33.037_rep_1": {
+      "is_train": true,
+      "repetition": 1
+    },
+    "H20.33.037_rep_2": {
+      "is_train": true,
+      "repetition": 2
+    },
+    "H20.33.002": {
+      "is_train": false,
+      "repetition": -1
+    },
+    "H20.33.039": {
+      "is_train": false,
+      "repetition": -1
+    }
+  },
+  "num_repetitions": 3
+}
